@@ -1,0 +1,77 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+.footer {
+  font-size: .9rem;
+  color: #666;
+  margin: 4rem 0 2rem;
+  text-align: center;
+}
+
+html[data-bs-theme='dark'] .navbar {
+  background-color: #212529;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 860px;
+  }
+
+  .navbar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    --bs-navbar-padding-x: 0;
+  }
+
+  .display-4 {
+    font-size: 2.25rem;
+  }
+
+  .display-3 {
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 880px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .display-4 {
+    font-size: 1.9rem;
+  }
+
+  .display-3 {
+    font-size: 2.3rem;
+  }
+}
+
+.teach-item .badge-te {
+  flex: 0 0 auto;
+  margin-top: .25rem;
+  margin-left: 1.5rem;
+}
+.bio-text {
+  font-size: 1.08rem;
+  line-height: 1.9;
+  max-width: 650px;
+}
+
+.welcome-text {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.headshot {
+  max-width: 320px;
+  border-radius: 14px;
+}
